@@ -1,0 +1,61 @@
+body {
+  background-color: #FF70AE;
+  text-align: center;
+}
+
+h1 {
+  /* color: #3BFDFF; */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40pt;
+  font-weight: 800;
+  /* font-style: Extra-Bold; */
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.container {
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 960px;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  grid-template-areas: "mainhead mianhead"
+                        "result result"; */
+}
+
+.mainhead {
+  grid-area: mianhead;
+}
+
+#result {
+  font-size: 20pt;
+  grid-area: result;
+}
+
+a {
+  text-decoration: none;
+}
+
+* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
